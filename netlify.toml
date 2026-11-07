@@ -1,8 +1,9 @@
 [build]
   publish = "."
-  functions = "netlify/functions"
+  # Обработчик заказов order.mjs лежит рядом с index.html
+  functions = "."
 
 [[headers]]
-  for = "/media/*"
+  for = "/*.mp4"
   [headers.values]
     Cache-Control = "public, max-age=604800"

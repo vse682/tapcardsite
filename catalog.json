@@ -6,8 +6,8 @@
     "price": 55,
     "bulk": { "min": 20, "off": 5 },
     "variants": [
-      { "id": "black", "name": "Чёрная", "img": "media/cards/google-black.jpg", "stock": 100 },
-      { "id": "white", "name": "Белая", "img": "media/cards/google-white.jpg", "stock": 10 }
+      { "id": "black", "name": "Чёрная", "img": "google-black.jpg", "stock": 100 },
+      { "id": "white", "name": "Белая", "img": "google-white.jpg", "stock": 10 }
     ]
   },
   {
@@ -17,7 +17,7 @@
     "price": 55,
     "bulk": { "min": 10, "off": 5 },
     "variants": [
-      { "id": "std", "name": "Стандарт", "img": "media/cards/instagram.jpg", "stock": 30 }
+      { "id": "std", "name": "Стандарт", "img": "instagram.jpg", "stock": 30 }
     ]
   },
   {
@@ -27,8 +27,8 @@
     "price": 180,
     "badge": "Премиум",
     "variants": [
-      { "id": "tap", "name": "«Tap here»", "img": "media/cards/premium-tap.jpg", "stock": 5 },
-      { "id": "qr", "name": "С QR-кодом", "img": "media/cards/premium-qr.jpg", "stock": 5 }
+      { "id": "tap", "name": "«Tap here»", "img": "premium-tap.jpg", "stock": 5 },
+      { "id": "qr", "name": "С QR-кодом", "img": "premium-qr.jpg", "stock": 5 }
     ]
   },
   {
@@ -39,8 +39,8 @@
     "bulk": { "min": 10, "off": 5 },
     "stock": 40,
     "variants": [
-      { "id": "follow", "name": "«Follow us»", "img": "media/cards/tiktok.jpg" },
-      { "id": "nfc", "name": "«NFC»", "img": "media/cards/tiktok.jpg" }
+      { "id": "follow", "name": "«Follow us»", "img": "tiktok.jpg" },
+      { "id": "nfc", "name": "«NFC»", "img": "tiktok.jpg" }
     ]
   },
   {
@@ -49,7 +49,7 @@
     "desc": "Открывает чат с вами в WhatsApp. Удобно для салонов, доставки и сервисов.",
     "price": 70,
     "variants": [
-      { "id": "std", "name": "Стандарт", "img": "media/cards/whatsapp.jpg", "stock": 2 }
+      { "id": "std", "name": "Стандарт", "img": "whatsapp.jpg", "stock": 2 }
     ]
   },
   {
@@ -58,8 +58,8 @@
     "desc": "Карта без печати. Запишем любую ссылку или вы запишете сами.",
     "price": 30,
     "variants": [
-      { "id": "white", "name": "Белая", "img": "media/cards/blank.jpg", "stock": 23 },
-      { "id": "black", "name": "Чёрная", "img": "media/cards/blank-black.jpg", "stock": 23 }
+      { "id": "white", "name": "Белая", "img": "blank.jpg", "stock": 23 },
+      { "id": "black", "name": "Чёрная", "img": "blank-black.jpg", "stock": 23 }
     ]
   },
   {
