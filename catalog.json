@@ -1,0 +1,74 @@
+[
+  {
+    "id": "google",
+    "name": "Отзывы Google",
+    "desc": "Клиент касается телефоном и сразу попадает на страницу отзыва о вашем заведении.",
+    "price": 55,
+    "bulk": { "min": 20, "off": 5 },
+    "variants": [
+      { "id": "black", "name": "Чёрная", "img": "media/cards/google-black.jpg", "stock": 100 },
+      { "id": "white", "name": "Белая", "img": "media/cards/google-white.jpg", "stock": 10 }
+    ]
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "desc": "Открывает ваш профиль, чтобы подписаться. С QR-кодом или без.",
+    "price": 55,
+    "bulk": { "min": 10, "off": 5 },
+    "variants": [
+      { "id": "std", "name": "Стандарт", "img": "media/cards/instagram.jpg", "stock": 30 }
+    ]
+  },
+  {
+    "id": "premium",
+    "name": "Instagram Премиум",
+    "desc": "Акриловая табличка с клейкой стороной сзади. Крепится на стол, кассу или стену.",
+    "price": 180,
+    "badge": "Премиум",
+    "variants": [
+      { "id": "tap", "name": "«Tap here»", "img": "media/cards/premium-tap.jpg", "stock": 5 },
+      { "id": "qr", "name": "С QR-кодом", "img": "media/cards/premium-qr.jpg", "stock": 5 }
+    ]
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "desc": "Ведёт на ваш TikTok-аккаунт. Два дизайна на выбор.",
+    "price": 70,
+    "bulk": { "min": 10, "off": 5 },
+    "stock": 40,
+    "variants": [
+      { "id": "follow", "name": "«Follow us»", "img": "media/cards/tiktok.jpg" },
+      { "id": "nfc", "name": "«NFC»", "img": "media/cards/tiktok.jpg" }
+    ]
+  },
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp",
+    "desc": "Открывает чат с вами в WhatsApp. Удобно для салонов, доставки и сервисов.",
+    "price": 70,
+    "variants": [
+      { "id": "std", "name": "Стандарт", "img": "media/cards/whatsapp.jpg", "stock": 2 }
+    ]
+  },
+  {
+    "id": "blank",
+    "name": "Пустая карта",
+    "desc": "Карта без печати. Запишем любую ссылку или вы запишете сами.",
+    "price": 30,
+    "variants": [
+      { "id": "white", "name": "Белая", "img": "media/cards/blank.jpg", "stock": 23 },
+      { "id": "black", "name": "Чёрная", "img": "media/cards/blank-black.jpg", "stock": 23 }
+    ]
+  },
+  {
+    "id": "custom",
+    "name": "Свой дизайн",
+    "desc": "Карта с вашим логотипом и цветами. Напишите в комментарии, что нужно, и мы пришлём макет и цену.",
+    "price": null,
+    "variants": [
+      { "id": "std", "name": "Стандарт" }
+    ]
+  }
+]
